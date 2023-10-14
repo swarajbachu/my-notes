@@ -1,6 +1,9 @@
 ---
-title: Swaraj's Blog
+title: Whizzy's Thoughts 😎
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+### Desclaimer
+
+This is a personal blog. The opinions expressed here represent my own and not those of my employer. In addition, my thoughts and opinions change from time to time. I consider this a necessary consequence of having an open mind. This blog is intended to provide a semi-permanent point in time snapshot and manifestation of the various memes running around my brain, and as such any thoughts and opinions expressed within out-of-date posts may not be the same, nor even similar, to those I may hold today.
+
+To be precise, this is just dump of all the things I learn and do. I am not a professional writer, so please excuse my writing skills. I am trying to improve it. If you find any mistakes, please let me know. I will correct it. and most importantly, this is just my personal notes, may not be useful for you. But if you find it useful, I am happy.
