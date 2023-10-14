@@ -2,6 +2,10 @@
 title: Whizzy's Thoughts 😎
 ---
 
+
+Hi I Am Swaraj, Currently just another student. Exploring many things, I dont even know what I am gonna write btw this place is gonna be mess for sure
+
+
 ### Desclaimer
 
 This is a personal blog. The opinions expressed here represent my own and not those of my employer. In addition, my thoughts and opinions change from time to time. I consider this a necessary consequence of having an open mind. This blog is intended to provide a semi-permanent point in time snapshot and manifestation of the various memes running around my brain, and as such any thoughts and opinions expressed within out-of-date posts may not be the same, nor even similar, to those I may hold today.
