@@ -1,5 +1,6 @@
 ---
 title: Whizzy's Thoughts 😎
+date: 2003-10-15
 ---
 
 
