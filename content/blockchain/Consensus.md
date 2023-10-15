@@ -1,3 +1,7 @@
+---
+title: Whizzy's Thoughts 😎
+date: 2003-10-13
+---
 
 In the blockchain, a consensus mechanism is **a system that validates a transaction and marks it as authentic**.
 
