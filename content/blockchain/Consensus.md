@@ -1,5 +1,5 @@
 ---
-title: Whizzy's Thoughts 😎
+title: Consensus
 date: 2003-10-13
 ---
 
