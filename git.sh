@@ -12,7 +12,7 @@ read -p "Enter commit message (or press enter to use default): " commit_message
 if [ -z "$commit_message" ]; then
     commit_message="Commit on $(get_ist_date)"
 else
-    commit_message="$commit_message - $(get_ist_date)"
+    commit_message="$commit_message"
 fi
 
 # Perform git add and commit
