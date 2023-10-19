@@ -2,7 +2,7 @@
 
 # Function to get current date and time in IST
 get_ist_date() {
-    date -u --date="5.5 hours" '+%Y-%m-%d %H:%M:%S %Z'
+    TZ="Asia/Kolkata" date '+%Y-%m-%d %H:%M:%S %Z'
 }
 
 # Ask user for commit message
@@ -18,6 +18,6 @@ fi
 # Perform git add and commit
 git add .
 git commit -m "$commit_message"
+git push
 
 echo "Changes committed with message: $commit_message"
-
