@@ -1,5 +1,5 @@
 ---
-title: Consensus
+title: liquidity pool
 date: 2003-10-13
 tags:
   - tokenomics
