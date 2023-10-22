@@ -1,8 +1,15 @@
-## Summary
+---
+title: chainlink
+date: 2023-10-21
+tags:
+  - tokenomics
+---
 
-Just incase I summerized the whole part with gpt, just incase I didnt want to read the whole thing again
+### Summary
 
-Chainlink, a decentralized network of oracles, enables smart contracts to interact with real-world data securely. It achieves this through a series of steps: user initiates a request, Chainlink's algorithm processes it, and oracles provide data. This information is validated and aggregated, discarding outliers for accuracy. Node operators are rewarded for accurate data, ensuring Chainlink's trustworthiness. In essence, Chainlink's decentralized approach ensures reliable and secure integration of real-world data into smart contracts, transforming the way transactions are conducted on the blockchain.
+Just incase I summarised the whole part with GPT, just incase I didn't want to read the whole thing again
+
+Chainlink, a decentralised network of oracles, enables smart contracts to interact with real-world data securely. It achieves this through a series of steps: user initiates a request, Chainlink's algorithm processes it, and oracles provide data. This information is validated and aggregated, discarding outliers for accuracy. Node operators are rewarded for accurate data, ensuring Chainlink's trustworthiness. In essence, Chainlink's decentralised approach ensures reliable and secure integration of real-world data into smart contracts, transforming the way transactions are conducted on the blockchain.
 
 
 ## 1. What is Chainlink?
@@ -106,6 +113,6 @@ Chainlink revolutionizes the way smart contracts interact with the real world. B
 - Chainlink's decentralized nature eliminates reliance on single entities, enhancing security.
 - LINK tokens are used to pay node operators and act as deposits, ensuring network honesty.
 
-### Post Script
+### P.S
 
 In the world of Chainlink, trust issues are so last season. Why rely on a single source when you can have a global network of honest operators? It's like having your cake and eating it too, but in the blockchain world – and who doesn't love a piece of that delicious, decentralized cake?

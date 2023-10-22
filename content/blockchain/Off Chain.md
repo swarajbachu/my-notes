@@ -1,6 +1,6 @@
 ---
 title: Off Chain
-date: 2003-10-13
+date: 2023-10-13
 ---
 
 One thing I thought was, off chain mean, which is not on blockchain, or the process that happens out of blockchain is generally considered off chain
