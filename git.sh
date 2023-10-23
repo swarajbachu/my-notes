@@ -16,12 +16,14 @@ else
 fi
 
 # Perform git add and commit
+git pull
 git add .
 git commit -m "$commit_message"
 git push
 
 cd content
 
+git pull
 git add .
 git commit -m  "$commit_message"
 git push
