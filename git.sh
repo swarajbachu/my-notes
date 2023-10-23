@@ -20,4 +20,10 @@ git add .
 git commit -m "$commit_message"
 git push
 
+cd content
+
+git add .
+git commit -m  "$commit_message"
+git push
+
 echo "Changes committed with message: $commit_message"
