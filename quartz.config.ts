@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "blog.swarajbachu.tech",
-    ignorePatterns: ["private", "Template", ".obsidian","git.sh"],
+    ignorePatterns: ["private", "Template", ".obsidian","git.sh","private"],
     defaultDateType: "created",
     theme: {
       typography: {
