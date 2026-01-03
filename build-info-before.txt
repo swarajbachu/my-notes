@@ -1,0 +1,103 @@
+
+ Quartz v4.1.0 
+
+Successfully transpiled 92 files (404 kB)
+
+  [1mquartz/.quartz-cache/transpiled-build.mjs[0m [37m       [0m [1m394.2kb[0m [37m[0m [1m100.0%[0m
+   ├ quartz/components/scripts/graph.inline.ts [37m    [0m 135.0kb [37m [0m 34.2%
+   ├ quartz/components/scripts/popover.inline.ts [37m   [0m 43.1kb [37m [0m 10.9%
+   ├ quartz/components/scripts/search.inline.ts [37m    [0m 42.4kb [37m [0m 10.7%
+   ├ quartz/styles/base.scss [37m                       [0m 29.5kb [37m  [0m 7.5%
+   ├ quartz/plugins/transformers/ofm.ts [37m            [0m 13.5kb [37m  [0m 3.4%
+   ├ quartz/components/styles/search.scss [37m          [0m 10.1kb [37m  [0m 2.6%
+   ├ quartz/components/scripts/spa.inline.ts [37m        [0m 8.6kb [37m  [0m 2.2%
+   ├ quartz/components/styles/explorer.scss [37m         [0m 6.8kb [37m  [0m 1.7%
+   ├ quartz/components/scripts/plausible.inline.ts [37m  [0m 4.8kb [37m  [0m 1.2%
+   ├ quartz/plugins/emitters/componentResources.ts [37m  [0m 4.0kb [37m  [0m 1.0%
+   ├ quartz/build.ts [37m                                [0m 3.9kb [37m  [0m 1.0%
+   ├ quartz/components/styles/graph.scss [37m            [0m 3.8kb [37m  [0m 1.0%
+   ├ quartz/util/path.ts [37m                            [0m 3.8kb [37m  [0m 1.0%
+   ├ quartz/components/scripts/explorer.inline.ts [37m   [0m 3.7kb [37m  [0m 0.9%
+   ├ quartz/components/styles/toc.scss [37m              [0m 3.2kb [37m  [0m 0.8%
+   ├ quartz/components/styles/popover.scss [37m          [0m 3.1kb [37m  [0m 0.8%
+   ├ quartz/components/ExplorerNode.tsx [37m             [0m 3.0kb [37m  [0m 0.8%
+   ├ quartz/processors/parse.ts [37m                     [0m 3.0kb [37m  [0m 0.8%
+   ├ quartz/components/Darkmode.tsx [37m                 [0m 3.0kb [37m  [0m 0.8%
+   ├ quartz/plugins/emitters/contentIndex.ts [37m        [0m 2.8kb [37m  [0m 0.7%
+   ├ quartz/components/renderPage.tsx [37m               [0m 2.5kb [37m  [0m 0.6%
+   ├ quartz/components/Graph.tsx [37m                    [0m 2.5kb [37m  [0m 0.6%
+   ├ quartz/components/styles/darkmode.scss [37m         [0m 2.2kb [37m  [0m 0.5%
+   ├ quartz/components/styles/listPage.scss [37m         [0m 2.1kb [37m  [0m 0.5%
+   ├ quartz/components/pages/TagContent.tsx [37m         [0m 2.0kb [37m  [0m 0.5%
+   ├ quartz/components/scripts/clipboard.inline.ts [37m  [0m 1.9kb [37m  [0m 0.5%
+   ├ quartz/components/Explorer.tsx [37m                 [0m 1.9kb [37m  [0m 0.5%
+   ├ quartz/components/styles/clipboard.scss [37m        [0m 1.8kb [37m  [0m 0.5%
+   ├ quartz/components/Breadcrumbs.tsx [37m              [0m 1.7kb [37m  [0m 0.4%
+   ├ quartz/components/styles/legacyToc.scss [37m        [0m 1.6kb [37m  [0m 0.4%
+   ├ quartz/plugins/transformers/links.ts [37m           [0m 1.6kb [37m  [0m 0.4%
+   ├ quartz/components/TableOfContents.tsx [37m          [0m 1.6kb [37m  [0m 0.4%
+   ├ quartz/util/theme.ts [37m                           [0m 1.5kb [37m  [0m 0.4%
+   ├ quartz/plugins/transformers/lastmod.ts [37m         [0m 1.5kb [37m  [0m 0.4%
+   ├ quartz/components/Head.tsx [37m                     [0m 1.5kb [37m  [0m 0.4%
+   ├ quartz/components/scripts/callout.inline.ts [37m    [0m 1.4kb [37m  [0m 0.4%
+   ├ quartz/plugins/emitters/folderPage.tsx [37m         [0m 1.4kb [37m  [0m 0.4%
+   ├ quartz/components/scripts/toc.inline.ts [37m        [0m 1.4kb [37m  [0m 0.3%
+   ├ quartz/plugins/emitters/tagPage.tsx [37m            [0m 1.3kb [37m  [0m 0.3%
+   ├ quartz/components/PageList.tsx [37m                 [0m 1.3kb [37m  [0m 0.3%
+   ├ quartz/components/styles/breadcrumbs.scss [37m      [0m 1.3kb [37m  [0m 0.3%
+   ├ quartz/components/scripts/darkmode.inline.ts [37m   [0m 1.3kb [37m  [0m 0.3%
+   ├ quartz/components/pages/FolderContent.tsx [37m      [0m 1.2kb [37m  [0m 0.3%
+   ├ quartz.config.ts [37m                               [0m 1.2kb [37m  [0m 0.3%
+   ├ quartz/plugins/emitters/contentPage.tsx [37m        [0m 1.1kb [37m  [0m 0.3%
+   ├ quartz/plugins/emitters/aliases.ts [37m             [0m 1.1kb [37m  [0m 0.3%
+   ├ quartz/components/Search.tsx [37m                   [0m 1.0kb [37m  [0m 0.3%
+   ├ quartz/components/styles/backlinks.scss [37m        [0m 977b [37m   [0m 0.2%
+   ├ quartz/processors/emit.ts [37m                      [0m 944b [37m   [0m 0.2%
+   ├ quartz/components/styles/footer.scss [37m           [0m 910b [37m   [0m 0.2%
+   ├ quartz/components/TagList.tsx [37m                  [0m 860b [37m   [0m 0.2%
+   ├ quartz/plugins/emitters/404.tsx [37m                [0m 800b [37m   [0m 0.2%
+   ├ quartz/plugins/transformers/frontmatter.ts [37m     [0m 799b [37m   [0m 0.2%
+   ├ quartz/plugins/transformers/toc.ts [37m             [0m 799b [37m   [0m 0.2%
+   ├ quartz.layout.ts [37m                               [0m 715b [37m   [0m 0.2%
+   ├ quartz/components/Backlinks.tsx [37m                [0m 694b [37m   [0m 0.2%
+   ├ quartz/util/trace.ts [37m                           [0m 681b [37m   [0m 0.2%
+   ├ quartz/plugins/transformers/description.ts [37m     [0m 641b [37m   [0m 0.2%
+   ├ quartz/components/ContentMeta.tsx [37m              [0m 634b [37m   [0m 0.2%
+   ├ quartz/plugins/transformers/gfm.ts [37m             [0m 604b [37m   [0m 0.1%
+   ├ quartz/components/Date.tsx [37m                     [0m 603b [37m   [0m 0.1%
+   ├ quartz/plugins/transformers/latex.ts [37m           [0m 593b [37m   [0m 0.1%
+   ├ quartz/components/Footer.tsx [37m                   [0m 587b [37m   [0m 0.1%
+   ├ quartz/plugins/emitters/assets.ts [37m              [0m 578b [37m   [0m 0.1%
+   ├ quartz/components/DesktopOnly.tsx [37m              [0m 565b [37m   [0m 0.1%
+   ├ quartz/util/resources.tsx [37m                      [0m 556b [37m   [0m 0.1%
+   ├ quartz/components/MobileOnly.tsx [37m               [0m 553b [37m   [0m 0.1%
+   ├ quartz/processors/filter.ts [37m                    [0m 532b [37m   [0m 0.1%
+   ├ quartz/plugins/transformers/oxhugofm.ts [37m        [0m 466b [37m   [0m 0.1%
+   ├ quartz/components/pages/Content.tsx [37m            [0m 420b [37m   [0m 0.1%
+   ├ quartz/components/PageTitle.tsx [37m                [0m 412b [37m   [0m 0.1%
+   ├ quartz/plugins/emitters/static.ts [37m              [0m 404b [37m   [0m 0.1%
+   ├ quartz/plugins/index.ts [37m                        [0m 392b [37m   [0m 0.1%
+   ├ quartz/components/ArticleTitle.tsx [37m             [0m 377b [37m   [0m 0.1%
+   ├ quartz/util/log.ts [37m                             [0m 360b [37m   [0m 0.1%
+   ├ quartz/components/Header.tsx [37m                   [0m 355b [37m   [0m 0.1%
+   ├ quartz/util/perf.ts [37m                            [0m 312b [37m   [0m 0.1%
+   ├ quartz/components/pages/404.tsx [37m                [0m 309b [37m   [0m 0.1%
+   ├ quartz/util/glob.ts [37m                            [0m 303b [37m   [0m 0.1%
+   ├ quartz/util/sourcemap.ts [37m                       [0m 254b [37m   [0m 0.1%
+   ├ quartz/components/Body.tsx [37m                     [0m 253b [37m   [0m 0.1%
+   ├ quartz/plugins/vfile.ts [37m                        [0m 223b [37m   [0m 0.1%
+   ├ quartz/util/lang.ts [37m                            [0m 209b [37m   [0m 0.1%
+   ├ quartz/components/Spacer.tsx [37m                   [0m 206b [37m   [0m 0.1%
+   ├ quartz/plugins/transformers/syntax.ts [37m          [0m 201b [37m   [0m 0.0%
+   ├ quartz/util/escape.ts [37m                          [0m 171b [37m   [0m 0.0%
+   ├ quartz/plugins/filters/draft.ts [37m                [0m 147b [37m   [0m 0.0%
+   ├ quartz/components/RecentNotes.tsx [37m               [0m 60b [37m   [0m 0.0%
+   └ quartz/plugins/transformers/linebreaks.ts [37m       [0m 40b [37m   [0m 0.0%
+
+Cleaned output directory `public` in 874μs
+Found 28 input files from `content` in 10ms
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+[2K[1GParsed 28 Markdown files in 442ms
+Filtered out 0 files in 48μs
+[2K[1GEmitted 55 files to `public` in 67ms
+Done processing 28 files in 522ms
