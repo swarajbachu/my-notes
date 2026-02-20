@@ -4,11 +4,30 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.ReadingProgress()],
   afterBody: [
     Component.ConditionalRender({
       component: Component.Signature(),
       condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.Comments({
+        provider: "giscus",
+        options: {
+          repo: "swarajbachu/my-notes",
+          repoId: "R_kgDOKgMl5g",
+          category: "Announcements",
+          categoryId: "DIC_kwDOKgMl5s4C24KC",
+          mapping: "pathname",
+          strict: false,
+          reactionsEnabled: true,
+          inputPosition: "top",
+          themeUrl: "https://giscus.app/themes",
+          darkTheme: "dark_tritanopia",
+          lightTheme: "light",
+        },
+      }),
+      condition: (page) => page.fileData.slug !== "index",
     }),
   ],
   footer: Component.Footer({

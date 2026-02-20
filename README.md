@@ -1,18 +1,26 @@
-# Quartz v4
+# Whizzy's Thoughts
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A personal blog and digital garden — notes on blockchain, development, and everything in between.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+**Live site:** [blog.swarajbachu.tech](https://blog.swarajbachu.tech)
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## What's Inside
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- **Blockchain** — Beginner-friendly guides to blockchain fundamentals
+- **Dev Notes** — Technical notes and learnings
+- **Thoughts** — General musings and ideas
 
-## Sponsors
+## Built With
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+- [Quartz v4](https://quartz.jzhao.xyz/) — static site generator for digital gardens
+- [Obsidian](https://obsidian.md/) — for writing and organizing content
+
+## Local Development
+
+```bash
+npx quartz build --serve
+```
+
+## Credits
+
+Powered by [Quartz](https://github.com/jackyzha0/quartz) by jackyzha0.

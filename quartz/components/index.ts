@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import FloatingTOC from "./FloatingTOC"
 import Signature from "./Signature"
+import ReadingProgress from "./ReadingProgress"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   FloatingTOC,
   Signature,
+  ReadingProgress,
 }
