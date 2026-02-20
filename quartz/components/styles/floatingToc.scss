@@ -1,0 +1,229 @@
+@use "../../styles/variables.scss" as *;
+
+.floating-toc {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+
+  @media (max-width: $mobileBreakpoint) {
+    &.mobile-hidden {
+      display: none;
+    }
+  }
+
+  .floating-toc-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--secondary);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--light);
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .floating-toc-modal {
+    position: fixed;
+    bottom: 5.5rem;
+    right: 2rem;
+    width: 320px;
+    max-height: 70vh;
+    background: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(12px);
+    overflow: hidden;
+    animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media (max-width: $mobileBreakpoint) {
+      right: 1rem;
+      left: 1rem;
+      width: auto;
+      max-width: calc(100vw - 2rem);
+    }
+
+    .floating-toc-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--lightgray);
+      background: var(--light);
+
+      h3 {
+        margin: 0;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--dark);
+      }
+
+      .floating-toc-close {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+        cursor: pointer;
+        color: var(--gray);
+        transition: all 0.2s ease;
+
+        &:hover {
+          background: var(--lightgray);
+          color: var(--dark);
+        }
+
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+
+    .floating-toc-content {
+      padding: 0.5rem 0;
+      overflow-y: auto;
+      max-height: calc(70vh - 60px);
+
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: var(--lightgray);
+        border-radius: 3px;
+
+        &:hover {
+          background: var(--gray);
+        }
+      }
+    }
+
+    .floating-toc-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .floating-toc-item {
+        margin: 0;
+        padding: 0;
+
+        a {
+          display: flex;
+          align-items: center;
+          padding: 0.5rem 1.25rem;
+          text-decoration: none;
+          color: var(--darkgray);
+          font-size: 0.875rem;
+          line-height: 1.5;
+          transition: all 0.2s ease;
+          position: relative;
+
+          &:hover {
+            background: var(--lightgray);
+            color: var(--dark);
+          }
+
+          .floating-toc-indicator {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: transparent;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+          }
+
+          .floating-toc-text {
+            flex: 1;
+          }
+
+          // Active state
+          &.active {
+            color: var(--secondary);
+            font-weight: 500;
+
+            .floating-toc-indicator {
+              background: var(--secondary);
+              box-shadow: 0 0 8px var(--secondary);
+            }
+          }
+
+          // In view but not active
+          &.in-view:not(.active) {
+            .floating-toc-indicator {
+              background: var(--gray);
+            }
+          }
+        }
+
+        // Depth-based indentation
+        &.depth-1 a {
+          padding-left: 1.25rem;
+        }
+
+        &.depth-2 a {
+          padding-left: 2rem;
+          font-size: 0.85rem;
+        }
+
+        &.depth-3 a {
+          padding-left: 2.75rem;
+          font-size: 0.825rem;
+        }
+
+        &.depth-4 a {
+          padding-left: 3.5rem;
+          font-size: 0.8rem;
+        }
+
+        &.depth-5 a {
+          padding-left: 4.25rem;
+          font-size: 0.775rem;
+        }
+
+        &.depth-6 a {
+          padding-left: 5rem;
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
